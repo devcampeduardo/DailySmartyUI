@@ -22,7 +22,7 @@ export default function(state= INIT_STATE, action) {
         const resultsPosts = action.playload;
         return {
             ...state,
-            resultslPosts
+            resultsPosts
         }
         default:
             return state;
