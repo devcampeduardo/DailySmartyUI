@@ -19,17 +19,13 @@ handleSearchBarSubmit(query) {
 
   render() {
     return (
-      <div>
-        <div>
-          <div>
+        <div className="home">
           <Logo/>
           <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)}/>
           <RecentPosts/>
-          </div>
         </div>
-      </div>
-    );
-  }
+      );
+   }
 }
 
 export default connect(null, actions)(Home);
