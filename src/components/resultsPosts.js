@@ -25,7 +25,6 @@ class ResultsPosts extends Component {
     }
 }
 
-
 function mapStateToProps(state) {
     return { 
         posts: state.posts.resultsPosts

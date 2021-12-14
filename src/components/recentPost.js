@@ -17,7 +17,6 @@ class RecentPosts extends Component {
             if(index < 3) {
                 return (
                     <Post type="recent" {...post} key={index}/>
-
                 )   
             }
         })
@@ -33,14 +32,13 @@ class RecentPosts extends Component {
                         {this.renderPosts()}
                     </ul>
                 </div>
-
             </div>
         )
     }
 }
 
 function mapStateToProps(state) {
-    return{
+    return {
         recentPosts: state.posts.recentPosts
     }
 }

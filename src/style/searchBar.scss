@@ -1,13 +1,13 @@
 .search-bar {
 
-        .search-bar_wrapper {
+    .search-bar__wrapper {
 
-            display: grid;
-            grid-row-gap: 23px;
-            width: 100%;
+        display: grid;
+        grid-row-gap: 23px;
+        width: 100%;
 
-            input {
-                padding-left: 35px;
+        input {
+            padding-left: 35px;
                 color: #f6f6f6;
                 box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
                 border: 0px solid transparent;

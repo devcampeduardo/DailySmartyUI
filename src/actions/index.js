@@ -13,7 +13,7 @@ export function fetchRecentPosts() {
         .then(response => {
             dispatch({
                 type: SET_RECENT_POSTS,
-                playload: response.data.posts
+                payload: response.data.posts
             })
         })
     }
@@ -27,7 +27,7 @@ export function fetchPostsWithQuery(query, callback) {
                     type: SET_RESULTS_POSTS,
                      payload: response.data.posts
                  })
-                if(callback) { callback}
+                if(callback) { callback()}
             })
     }
 }
