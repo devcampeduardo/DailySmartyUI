@@ -4,21 +4,20 @@
     align-content: center;
     justify-items: center;
 
-    .recent-posts_wrapper {
-
-        background-color: rgb(36, 122, 75);
+    .recent-posts__wrapper {
         display: grid;
         grid-row-gap: 21px;
-        width: 10%;
-        .recent-posts_heading {
+        width: 100%;
+
+        .recent-posts__heading {
             color: $color-blue-one;
             font-size: 14px;
         }
-        .recent-posts_posts {
+        .recent-posts__posts {
             display: grid;
             justify-content: space-evenly;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 42px;
-        }
+        }    
     }
 }
