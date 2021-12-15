@@ -24,10 +24,18 @@ ul {
     list-style-type: none;
 }
 
+
 $offwhite: #f6f6f6;
 $color-blue-two: #d8d8d8;
 $charcoal: #42454a;
 $color-blue-one: #0079ff;
+
+.no-content {
+    color: $charcoal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 
 @import './mixins';
 @import './searchBar';
